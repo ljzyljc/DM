@@ -6,8 +6,8 @@ public interface TestB {
 
     void skip();
 
-    default String getName(){
-        return "jackie";
-    }
+//    default String getName(){
+//        return "jackie";
+//    }
 
 }

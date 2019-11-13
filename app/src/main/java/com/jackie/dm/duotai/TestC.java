@@ -16,16 +16,14 @@ public class TestC implements TestA,TestB {
 
     }
 
+
+    public String getName(){
+        return "=================";
+    }
+
     public static void main(String[] args) {
         TestC testC = new TestC();
         testC.test();
-
-        TestA testA = new TestA() {
-
-            @Override
-            public void fly() {
-
-            }
-        };
+        System.out.println(testC.getName());
     }
 }

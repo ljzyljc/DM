@@ -6,8 +6,8 @@ public interface TestA {
 
     void fly();
 
-//    default String getName(){
-//        return "jackie";
-//    }
+    default String getName(){
+        return "jackie";
+    }
 
 }
