@@ -34,7 +34,7 @@ sys	0m0.012s
 
 多核的CPU,可能出现user+sys 大于 real  ,seq和wc命令会分配到两个cpu上面，user和sys是两个cpu时间相加的，而real只是现实时钟里走过的时间，极端情况下user+sys可以达到real的两倍
 
-<img src="../0b340db019d7e389a2bde4c237ee4700.jpg">
+<img src="../image/0b340db019d7e389a2bde4c237ee4700.jpg">
 
 
 
